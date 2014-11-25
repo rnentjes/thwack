@@ -186,7 +186,7 @@ public class GameScreen extends ScreenAdapter {
 
     @Override
     public void resize(int width, int height) {
-        this.unitWidth = 1024f / 32f;
+        this.unitWidth = 896f / 32f;
         //this.unitWidth = 900f / 32f;
         this.unitHeight = unitWidth / (float)width * (float)height;
 
